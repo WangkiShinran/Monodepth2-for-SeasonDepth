@@ -1,0 +1,3 @@
+train_files_ori.txt和val_files_ori.txt都是从原始数据集中通过split_data.py遍历文件夹生成的
+val_files.txt和train_files_without_val.txt都是经过sort_data.py对上述两个文件排序之后的结果
+train_files.txt是上述两个排序好的文件的拼接，因为MonoDepth2中验证集只起到参考的作用，所以验证集也被归入训练集中一起进行训练
